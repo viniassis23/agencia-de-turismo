@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="/assets/icon-plane.ico" type="image/x-icon">
+
+  
+  <title>Turistando</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+   <!-- Link para Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    
+    <div class="container">
+      <a class="navbar-brand" href="#">Turistando <img src="assets/icon-plane.svg" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#destinos">Destinos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <button>
+            <a href="login/login.html">Register</a>
+        </button>
+    </div>
+    </div>
+  </nav>
+  
+
+  <!-- Banner -->
+  <div class="banner">
+    <div>
+      <h1>Explore os Melhores Destinos do Mundo</h1>
+      <p>Viagens incríveis e experiências inesquecíveis</p>
+      <a href="#destinos" class="btn btn-primary btn-lg mt-3">Veja Nossos Destinos</a>
+    </div>
+  </div>
+
+  <!-- Destinos Populares -->
+  <section id="destinos" class="container my-5">
+    <h2 class="section-title">Destinos Populares</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card destination-card">
+          <img src="assets/backgroud-2.jpeg" class="card-img-top" alt="Destino 1">
+          <div class="card-body">
+            <h5 class="card-title">Praia da Samoqueira</h5>
+            <p class="card-text">Aproveite a água cristalina com uma vista deslumbrante </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card destination-card">
+          <img src="assets/background-8.jpg" class="card-img-top" alt="Destino 2">
+          <div class="card-body">
+            <h5 class="card-title">Sierra Nevada</h5>
+            <p class="card-text">Descubra a beleza das montanhas em sua temporada de inverno.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card destination-card">
+          <img src="assets/backgroud-1.jpeg" class="card-img-top" alt="Destino 3">
+          <div class="card-body">
+            <h5 class="card-title">Madrid</h5>
+            <p class="card-text">Explore os marcos históricos e culturais da capital da Espanha.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulário de Contato -->
+  <section id="contato" class="container my-5">
+    <h2 class="section-title">Entre em Contato</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Seu email">
+          </div>
+          <div class="mb-3">
+            <label for="mensagem" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="mensagem" rows="5" placeholder="Sua mensagem"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Turistando. Todos os direitos reservados.</p>
+    <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+    
+     <!-- Ícones de redes sociais -->
+  <div>
+    <a href="https://github.com/ViniciusAssis10" target="_blank" class="me-3"><i class="fab fa-github fa-2x"></i></a>
+    <a href="https://facebook.com/" target="_blank" class="me-3"><i class="fab fa-facebook fa-2x"></i></a>
+    <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+  </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
