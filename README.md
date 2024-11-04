@@ -37,13 +37,6 @@ Esse projeto será desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
-
-## 🚀 Tecnologias
-
-Esse projeto será desenvolvido com as seguintes tecnologias:
-
-- HTML
-- CSS
 - Javascript
 - Bootstrap
 
