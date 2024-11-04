@@ -1,5 +1,5 @@
 <h1 align="center">
-  Rocket Travel
+  Projeto UFCD 5425 Turistando
 </h1>
 
 <p align="center">
