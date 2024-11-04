@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
- <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=4343e9&labelColor=e2792d" alt="License">
+ <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=007bff&labelColor=e2792d" alt="License">
   
 </p>
 
@@ -21,12 +21,12 @@
 
 <h1>Desktop</h1>
 <p align="center">
-  <img alt="" src=".github/preview-desktop.png" width="100%">
+  <img alt="" src=".github/homepage.png" width="100%">
 </p>
 
 <h1>Mobile</h1>
 <p align="center">
-  <img alt="" src=".github/preview-mobile.png" width="50%">
+  <img alt="" src=".github/homepage-mobile.png" width="50%">
 </p>
 
 ## 🚀 Tecnologias
