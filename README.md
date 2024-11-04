@@ -21,8 +21,8 @@
 
 <h1>Desktop</h1>
 <p align="center">
-  <img alt="" src=".github/homepage.png" width="50%">
-  <img alt="" src=".github/loginpage.png" width="50%">
+  <img alt="" src=".github/homepage.png" width="100%">
+  <img alt="" src=".github/loginpage.png" width="1000%">
 </p>
 
 <h1>Mobile</h1>
