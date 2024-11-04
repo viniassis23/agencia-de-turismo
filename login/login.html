@@ -1,75 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/assets/icon-plane.ico" type="image/x-icon">
-    <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="login.css" />
     <title>Turistando</title>
-</head>
-
-<body>
-
+  </head>
+  <body>
     <div class="container">
-        <div class="content first-content">
-            <div class="first-column">
-                <h2 class="title title-primary">Bem-vindo de volta!</h2>
-                <p class="description">Conecte-se conosco para continuar</p>
-                <button class="btn btn-primary">Entrar</button>
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title">Login</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Nome" />
             </div>
-
-            <div class="second-column">
-                <h2 class="title title-second">Crie sua conta</h2>
-                <form class="form">
-                    <input type="nome" placeholder="Nome">
-                    <input type="email" placeholder="Email">
-                    <input type="senha" placeholder="Senha">
-                    <button class="btn">Registrar</button>
-                </form>
-
-                <div class="social-media">
-                    <p class="description">ou utilize uma destas opções</p>
-                    <ul class="lista-social-media">
-                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                        <li><a href="#">Google</a></li>
-                        <li><a href="#">Apple</a></li>
-                    </ul>
-                </div><!-- midias sociais -->
-            </div><!-- second-column -->
-        </div><!-- first-content -->
-
-        <div class="content second-content">
-            <div class="first-column">
-                <h2>Seja Bem-vindo!</h2>
-                <p class="description">Venha escolher</p>
-                <p class="description">seu próximo destino</p>
-                <button class="btn">Entrar</button>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Senha" />
             </div>
+            <input type="submit" value="Iniciar Sessão" class="btn solid" />
+            <p class="social-text">Ou faça login em plataformas sociais</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-apple"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+            </div>
+          </form>
+          <form action="#" class="sign-up-form">
+            <h2 class="title">Inscreva-se</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Nome" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Senha" />
+            </div>
+            <input type="submit" class="btn" value="Cadastrar" />
+            <p class="social-text">Ou inscreva-se em plataformas sociais</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
 
-
-            <div class="second-column">
-                <h2>Iniciar sessão</h2>
-                <form class="form">
-                    <input type="email" placeholder="Email">
-                    <input type="senha" placeholder="Senha">
-                    <a href="#">Esqueceu sua senha?</a>
-                    <button class="btn">Continuar</button>
-                </form>
-
-                <div class="social-media">
-                    <p class="description">ou utilize uma destas opções</p>
-                    <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Google</a></li>
-                        <li><a href="#">Apple</a></li>
-                    </ul>
-                </div><!-- midias sociais -->
-            </div><!-- second-column -->
-        </div><!-- second-content -->
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Bem Vindo</h3>
+            <p>
+              Cadastre-se em nosso site utilizando seus dados pessoais.
+              Venha se aventurar conosco!
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Criar conta
+            </button>
+          </div>
+    
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>Bem vindo de volta!</h3>
+            <p>
+              Utilize seus dados para acessar nosso site.
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              Entrar
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
 
-</body>
-
+    <script src="app.js"></script>
+  </body>
 </html>
