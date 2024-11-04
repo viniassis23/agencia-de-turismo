@@ -38,22 +38,25 @@ Esse projeto será desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 
+## 🚀 Tecnologias
+
+Esse projeto será desenvolvido com as seguintes tecnologias:
+
+- HTML
+- CSS
+- Javascript
+- Bootstrap
+
 ## 🚧 Projeto
 
-Neste desafio você deverá construir uma landing page de viagens fictícia.
-
-Live Preview: https://rocket-travel.vercel.app/
-
-Figma: https://www.figma.com/file/MOrKnXFQqWCz01Ei1KJnCO/Rocket-Travel
+Este projeto tem como fim desenvolver um site de agência de turismo, com o objetivo de ajudar as pessoas a buscar lugares para viajar.
 
 ## 🎨 Inspiração:
 
-[Dribbble](https://dribbble.com/shots/17407084-Travel-Web-Header-Landing-Page-design/attachments/12533821?mode=media)
+[Dribbble](https://dribbble.com/tags/travel-lading-page)
 
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE) para mais detalhes.
 
 ---
-
-Feito com ♥ by birobirobiro
