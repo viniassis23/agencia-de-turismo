@@ -24,12 +24,6 @@
   <img alt="" src=".github/loginpage.png" widht="100%>  
 </p>
 
-<h1>Mobile</h1>
-<p align="center">
-  <img alt="" src=".github/homepage-mobile.png" width="50%">
-  <img alt="" src=".github/loginpage-mobile.png" width="50%">
-</p>
-
 ## 🚀 Tecnologias
 
 Esse projeto será desenvolvido com as seguintes tecnologias:
